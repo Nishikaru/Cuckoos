@@ -5,7 +5,7 @@ import Trending from '../trending/Trending';
 
 const Main = () => {
   return (
-    <div className='flex flex-col-reverse lg:flex-row w-full'>
+    <div className='flex flex-col-reverse lg:flex-row w-full h-screen'>
       <Navbar/>
       <Feeds/>
       <Trending/>

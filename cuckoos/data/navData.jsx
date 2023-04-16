@@ -1,33 +1,33 @@
-import {FaEarlybirds} from 'react-icons/fa'
-import {BiHomeAlt2} from 'react-icons/bi'
-import {MdNotificationsActive} from 'react-icons/md'
-import {BsBookmarkHeart} from 'react-icons/bs'
-import {CgProfile} from 'react-icons/cg'
+import { FaEarlybirds } from "react-icons/fa";
+import { BiHomeAlt2 } from "react-icons/bi";
+import { MdNotificationsActive } from "react-icons/md";
+import { BsBookmarkHeart } from "react-icons/bs";
+import { CgProfile } from "react-icons/cg";
 
-export const navData =[
+export const navData = [
   {
-    icon:<FaEarlybirds/>,
+    icon: <FaEarlybirds />,
     label: "",
-    link:"/"
+    link: "/",
   },
   {
-    icon:<BiHomeAlt2/>,
+    icon: <BiHomeAlt2 />,
     label: "Home",
-    link:"/"
+    link: "/",
   },
   {
-    icon:<MdNotificationsActive/>,
+    icon: <MdNotificationsActive />,
     label: "Notifications",
-    link:"/"
+    link: "/",
   },
   {
-    icon:<BsBookmarkHeart/>,
+    icon: <BsBookmarkHeart />,
     label: "Book marks",
-    link:"/"
+    link: "/",
   },
   {
-    icon:<CgProfile/>,
+    icon: <CgProfile />,
     label: "Profile",
-    link:"/"
+    link: "/",
   },
-]
+];
