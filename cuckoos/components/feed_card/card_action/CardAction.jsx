@@ -6,7 +6,7 @@ import {FiShare} from 'react-icons/fi'
 
 const CardAction = ({like,reply,retweet,bookMark}) => {
   return (
-    <div className='w-full flex items-center justify-around text-lg'>
+    <div className='w-full flex items-center justify-around text-sm lg:text-base'>
       <div className='flex items-center gap-2 hover:text-orange-500 transition-all'>
       <SlBubbles/>
       {reply}
