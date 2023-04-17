@@ -5,8 +5,8 @@ import ProfilePic from "./nav_links/profile_pic/ProfilePic";
 
 const Navbar = () => {
   return (
-    <div className="w-full h-full flex flex-row-reverse">
-      <div className="w-1/2 flex flex-col justify-between">
+    <div className="lg:w-full h-full flex lg:flex-row-reverse text-black dark:text-slate-200">
+      <div className="lg:w-1/2 flex flex-col items-center lg:items-start justify-between">
         <div className="p-2 flex flex-col gap-5">
           {navData.map((item, index) => (
             <NavLinks key={index} index={index} item={item} />
