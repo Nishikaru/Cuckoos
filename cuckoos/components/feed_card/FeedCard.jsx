@@ -7,7 +7,7 @@ import CardAction from "./card_action/CardAction";
 const FeedCard = ({item}) => {
   const {userProfile,name,user,postTime,postText,imgUrl,like,reply,retweet,bookMark}=item
   return (
-    <div className="flex w-full p-4 gap-4 items-start border-b-2 border-gray-500 cursor-pointer dark:hover:bg-gray-950 transition-all">
+    <div className="flex w-full p-4 gap-4 items-start border-b border-gray-500 cursor-pointer dark:hover:bg-gray-950 transition-all">
       <div>
       <CardProfilePic userProfile={userProfile}/>
       </div>

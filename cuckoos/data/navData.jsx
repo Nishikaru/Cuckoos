@@ -28,6 +28,6 @@ export const navData = [
   {
     icon: <CgProfile />,
     label: "Profile",
-    link: "/",
+    link: "/profile",
   },
 ];

@@ -5,7 +5,7 @@ import {MdOutlinePhotoLibrary} from "react-icons/md"
 const PostBox = () => {
   const userProfile = "https://picsum.photos/50/50";
   return (
-    <div className="p-4 flex gap-3 border-b-2 border-gray-600">
+    <div className="p-4 flex gap-3 border-b border-gray-600">
       <div>
         <CardProfilePic userProfile={userProfile} />
       </div>

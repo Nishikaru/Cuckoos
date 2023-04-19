@@ -2,7 +2,7 @@ import React from 'react';
 
 const FeedsHead = () => {
   return (
-    <div className='border-b-2 border-gray-500'>
+    <div className='border-b border-gray-500'>
       <div className='p-3'>
         <h1 className='text-2xl font-medium'>Home</h1>
       </div>
