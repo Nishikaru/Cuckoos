@@ -9,25 +9,30 @@ export const navData = [
     icon: <FaEarlybirds />,
     label: "",
     link: "/",
+    phn:false
   },
   {
     icon: <BiHomeAlt2 />,
     label: "Home",
     link: "/",
+    phn:true
   },
   {
     icon: <MdNotificationsActive />,
     label: "Notifications",
     link: "/",
+    phn:true
   },
   {
     icon: <BsBookmarkHeart />,
     label: "Book marks",
     link: "/",
+    phn:true
   },
   {
     icon: <CgProfile />,
     label: "Profile",
     link: "/profile",
+    phn:true
   },
 ];
